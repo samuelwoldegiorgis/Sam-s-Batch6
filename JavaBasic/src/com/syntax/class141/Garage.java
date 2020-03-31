@@ -1,8 +1,11 @@
 package com.syntax.class141;
 
+import com.syntax.class14.Car;
+
 public class Garage {
 
 	public static void main(String[] args) {
+		
 		// build individual objects
 				Car car1 = new Car();
 				car1.make = "Lamborghini";
@@ -49,8 +52,7 @@ public class Garage {
 				// new Bike(); --> cannot create an object if we do not have a class
 				// car2.breaking();CE: method is not defined in car class
 
-				// I drive pink bmw
-
+				// I drive pink BMW
 	}
 
 }
