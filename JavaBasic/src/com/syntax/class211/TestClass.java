@@ -8,7 +8,7 @@ public class TestClass {
 		System.out.println(mt.name);
 
 		MathTeacher mt1=new MathTeacher("Sarmed", "Halabi");
-		System.out.println(mt1.name);
+		System.out.println(mt.name);
 
 		JavaTeacher jt=new JavaTeacher("Anna", "Smith", "Java 8");
 		System.out.println(jt.name);
